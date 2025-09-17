@@ -58,15 +58,15 @@ class Calculator {
 
 public class SchoolGrade {
     public static void main(String[] args) {
-        Student raghav = new Student("Raghav");
-        raghav.add(new Subject("Maths", 90));
-        raghav.add(new Subject("Science", 85));
+        Student ashutosh = new Student("Ashutosh");
+        ashutosh.add(new Subject("Maths", 90));
+        ashutosh.add(new Subject("Science", 85));
 
         Calculator calc = new Calculator();
-        String grade = calc.grade(raghav);
+        String grade = calc.grade(ashutosh);
 
-        System.out.println("Student: " + raghav.getName());
-        for (Subject sub : raghav.getSubjects()) {
+        System.out.println("Student: " + ashutosh.getName());
+        for (Subject sub : ashutosh.getSubjects()) {
             System.out.println(sub.getName() + ": " + sub.getMarks());
         }
         System.out.println("Final Grade: " + grade);
