@@ -62,7 +62,7 @@ class Bill {
 
 public class GroceryShop {
     public static void main(String[] args) {
-        Customer nakul = new Customer("Nakul");
+        Customer nakul = new Customer("AshutoshPatel");
         nakul.add(new Product("Apples", 30.0, 2.0));
         nakul.add(new Product("Milk", 80.0, 1.0));
 
